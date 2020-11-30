@@ -1,14 +1,15 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Hexu\UnitConvert\Tests;
 
+use Hexu\UnitConvert\Weight;
 use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase
 {
     /** @test */
-    public function true_is_true()
+    public function convert_weight_from_kg_to_lbs()
     {
-        $this->assertTrue(true);
+        $this->assertEquals(4.4, Weight::fromKg(2)->toLbs());
     }
 }
