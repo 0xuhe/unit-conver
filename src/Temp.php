@@ -3,7 +3,6 @@
 
 namespace Hexu\UnitConvert;
 
-
 class Temp
 {
     private float $c;
