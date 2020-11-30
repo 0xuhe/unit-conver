@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "hexu/unit-conver",
+    "description": "",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "hexu",
+        "unit-conver"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/hexu/unit-conver",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "hexu",
+            "email": "251323229@qq.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Hexu\\UnitConvert\\": "UnitConvert"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Hexu\\UnitConvert\\Tests\\": "tests"
         }
     },
     "scripts": {
